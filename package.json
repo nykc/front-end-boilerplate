@@ -1,0 +1,39 @@
+{
+  "name": "front-end-boilerplate",
+  "version": "0.1.0",
+  "description": "front-end boilerplate for web development",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Derek Ackley",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.13.0",
+    "browserify": "^13.0.1",
+    "bundle-collapser": "^1.2.1",
+    "css-mqpacker": "^5.0.1",
+    "csswring": "^5.1.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-filter": "^4.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-jade-inheritance": "^0.5.5",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^1.5.4",
+    "postcss-zindex": "^2.1.1",
+    "require-dir": "^0.3.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}

@@ -10,7 +10,7 @@ Front-end Boilerplate is a framework for front-end development using the Gulp ta
 
 - **Streaming:** build system
 - **Sass:** compilation, vendor prefixing, minification
-- **JavaScript:** bundling, optimization, linting
+- **JavaScript:** bundling, optimization, linting (TODO)
 - **Image:** optimization
 - Boilerplate README
 
@@ -23,16 +23,18 @@ Front-end Boilerplate is a framework for front-end development using the Gulp ta
 
 The directory structure is as follows:
 
-- src/
-- dist/
+- source/
+- output/
 
-**src:** contains all the files for developing the app/website
+**source:** contains all the files for developing the app/website
 
-**dist:** contains the output production files once ready for release
+**output:** contains the output production files once ready for release
 
 ## Gulp Tasks
 
-// TODO
+- **gulp**: builds the site
+- **gulp watch**: sets up watch, watchify & browser-sync (defaults to port 3000)
+- **gulp build**: builds the site with minified/uglified/optimized assets
 
 ## License
 
